@@ -149,6 +149,20 @@ img { max-width: 100%; display: block; }
 .card h3 { font-size: 1.15rem; margin-bottom: 10px; }
 .card p { color: var(--gray); font-size: 0.95rem; }
 
+/* ===== Owner ===== */
+.owner-grid { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 56px; align-items: center; max-width: 920px; }
+.owner-mark {
+  width: 220px; aspect-ratio: 1; display: grid; place-items: center; border: 10px solid #fff;
+  border-radius: 50%; background: var(--primary); color: #fff; font-family: var(--font-head);
+  font-size: 4rem; font-weight: 800; box-shadow: var(--shadow);
+}
+.owner-content { max-width: 650px; }
+.owner-content h2 { font-size: clamp(1.7rem, 3vw, 2.4rem); margin: 10px 0 6px; }
+.owner-role { color: var(--primary-dark); font-weight: 700; margin-bottom: 18px; }
+.owner-established { color: var(--dark); font-weight: 700; margin-bottom: 18px; }
+.owner-content > p:not(.owner-role) { color: var(--gray); margin-bottom: 14px; }
+.owner-content .btn { margin-top: 12px; }
+
 /* ===== Pricing ===== */
 .pricing-grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); align-items: stretch; }
 .price-card {
@@ -256,4 +270,6 @@ img { max-width: 100%; display: block; }
   .contact-grid { grid-template-columns: 1fr; }
   .form-row { grid-template-columns: 1fr; }
   .hero-card.offset { transform: none; }
+  .owner-grid { grid-template-columns: 1fr; gap: 28px; }
+  .owner-mark { width: 150px; font-size: 3rem; }
 }
