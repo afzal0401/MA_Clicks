@@ -275,6 +275,7 @@ img { max-width: 100%; display: block; }
   .contact-grid { grid-template-columns: 1fr; }
   .form-row { grid-template-columns: 1fr; }
   .hero-card.offset { transform: none; }
+  .section#owner { padding-block: 30px; }
   .owner-grid { grid-template-columns: 1fr; gap: 28px; }
   .owner-mark { width: 150px; margin-inline: auto; }
   .owner-content { text-align: center; }
