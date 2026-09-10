@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="M.A Clickzz camera logo">
+  <rect width="72" height="72" rx="18" fill="#8b5cf6"/>
+  <path d="M18 27h10l4-7h8l4 7h10a7 7 0 0 1 7 7v18a7 7 0 0 1-7 7H18a7 7 0 0 1-7-7V34a7 7 0 0 1 7-7Z" fill="#fff"/>
+  <circle cx="36" cy="43" r="13" fill="#6d4bc7"/>
+  <circle cx="36" cy="43" r="8" fill="#dcd0ff"/>
+  <circle cx="36" cy="43" r="4" fill="#fff"/>
+  <circle cx="53" cy="34" r="2.5" fill="#dcd0ff"/>
+</svg>
