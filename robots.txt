@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://afzal0401.github.io/ma-clickzz/sitemap.xml
